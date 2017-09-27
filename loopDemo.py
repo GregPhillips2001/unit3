@@ -7,6 +7,12 @@
 for i in range(1,6):
     print("I love computer science")"""
 
+i = 1
+while i is <= 5:
+    print("I love computer science")
+
+
+
 """
 #Print the numbers from 1 to 20
 for i in range(1,21):
