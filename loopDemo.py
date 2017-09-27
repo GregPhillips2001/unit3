@@ -7,6 +7,18 @@
 for i in range(1,6):
     print("I love computer science")"""
 
+"""
 #Print the numbers from 1 to 20
 for i in range(1,21):
-    print(i)
+    print(i)"""
+
+"""
+#Print out the odd numbers from 13 to 27
+for i in range(13,28,2): #last number is how much it goes up each time
+        print(i)"""
+        
+#Add up the numbers from 1 to 5
+total = 0
+for i in range(1,6):
+    total = total + i
+print(total)
