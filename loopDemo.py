@@ -17,8 +17,9 @@ for i in range(1,21):
 for i in range(13,28,2): #last number is how much it goes up each time
         print(i)"""
         
+"""
 #Add up the numbers from 1 to 5
 total = 0
 for i in range(1,6):
     total = total + i
-print(total)
+print(total)"""
