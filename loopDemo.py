@@ -10,6 +10,7 @@ for i in range(1,6):
 i = 1
 while i is <= 5:
     print("I love computer science")
+    i = i+1
 
 
 
