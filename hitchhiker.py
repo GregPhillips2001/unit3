@@ -4,6 +4,7 @@
 
 for i in range(1,100):
     question = input("Enter a question or type quit: ")
-    if "quit" not in question:
-        print("42")
+    if question == "quit":
+        break
+    print("42")
         
