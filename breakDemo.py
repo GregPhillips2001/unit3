@@ -4,4 +4,7 @@
 
 #copy cat
 while True:
-    input("")
+    text = input("")
+    print(text)
+    if text == "something":
+        break
