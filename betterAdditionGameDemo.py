@@ -16,3 +16,5 @@ while numCorrect < 5:
     else:
         print("The answer was", num1 + num2)
 
+print("Congratulations! You're smarter than Charlie Goodrich!")
+
