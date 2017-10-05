@@ -18,10 +18,12 @@ text = TextAsset("SATURDAYS", fill=white, style="bold 8pt Times")
 text2 = TextAsset("ARE_FOR", fill=blue, style="bold 8pt Times")
 text3 = TextAsset("THE_BOYS", fill=white, style="bold 8pt Times")
 
-Sprite(redRectangle)
-Sprite(whiteRectangle, (0,20))
-Sprite(blueRectangle, (0,40))
-Sprite(text, (20,7))
-Sprite(text2, (23,27))
-Sprite(text3, (20,47))
+for j in range(7):
+    for i in range(7):
+        Sprite(redRectangle, (0 + 150*i, 0 + 75*j))
+        Sprite(whiteRectangle, (0 + 150*i,20 + 75*j))
+        Sprite(blueRectangle, (0 + 150*i,40 + 75*j))
+        Sprite(text, (20 + 150*i,7 + 75*j))
+        Sprite(text2, (23 + 150*i,27 + 75*j))
+        Sprite(text3, (20 + 150*i,47 + 75*j))
 App().run()
