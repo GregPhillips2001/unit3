@@ -8,5 +8,6 @@ red = Color(0xff0000,1)
 
 dot = CircleAsset(20,LineStyle(1,red),red)
 
-Sprite(dot,(20,20))
+for i in range(10):
+    Sprite(dot,(20 + 50*i,20))
 App().run()
