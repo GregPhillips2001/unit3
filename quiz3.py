@@ -14,3 +14,8 @@ total = 0
 for i in range(13,332,2):
     total+=i
 print(total)
+
+while True:
+    word = input("Enter a word: ")
+    if "z" == word:
+        break
